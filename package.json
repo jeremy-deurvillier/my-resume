@@ -1,0 +1,19 @@
+{
+  "name": "my-resume",
+  "version": "1.0.0",
+  "description": "My resume",
+  "main": "index.js",
+  "scripts": {
+	  "dev": "next dev",
+	  "build": "next build",
+	  "start": "next start",
+	  "lint": "next lint"
+  },
+  "author": "Jérémy Deurvillier",
+  "license": "ISC",
+  "dependencies": {
+    "next": "^12.0.2",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  }
+}

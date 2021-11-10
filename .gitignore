@@ -1,0 +1,9 @@
+#Dépendances
+/node_modules
+
+#Next.js
+/.next
+/build
+
+#Autres
+npm-debug.log*

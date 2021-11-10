@@ -1,0 +1,101 @@
+{
+	"identity": {
+		"name": "Jérémy",
+		"lastname": "Deurvillier"
+	},
+	"job": {
+		"title": "Développeur Web",
+		"tags": ["Laravel", "React", "Node"]
+	},
+	"contact": [
+		"06 93 82 27 82",
+		"jerem.deurvil@gmail.com",
+		"https://github.com/jeremy-deurvillier",
+		"https://www.linkedin.com/in/jeremy-deurvillier"
+	],
+	"about": "",
+	"story": "",
+	"experiences": [
+		{
+			"job": "Agent de maintenance",
+			"company": "Cartonnerie de La Réunion",
+			"location": "Saint-Pierre - Réunion",
+			"dates": [2006, 2008],
+			"activities": []
+		},
+		{
+			"job": "Technicien de maintenance",
+			"company": "SPHB",
+			"location": "Saint-Pierre - Réunion",
+			"dates": [2009, 2010],
+			"activities": []
+		},
+		{
+			"job": "Agent polyvalent",
+			"company": "Famille Marie Jeunesse",
+			"location": "Le Tampon - Réunion",
+			"dates": [2012, 2015],
+			"activities": []
+		},
+		{
+			"job": "Développeur WordPress",
+			"company": "Agence Nautilus",
+			"location": "Saint-Denis - Réunion",
+			"dates": [2017, 2017],
+			"activities": [
+				{
+					"activity": "Mise à jour du site WP de l'agence.",
+					"tags": ["WordPress", "WP", "CSS", "JS", "PHP", "POO"]
+				},
+				{
+					"activity": "Utilisation du thème The7 et des plugins LayerSlider, WooCommerce et Contact Form 7.",
+					"tags": ["WordPress"]
+				}
+			]
+		},
+		{
+			"job": "Développeur Logiciel",
+			"company": "jeremy-appcreator.com",
+			"location": "Le Tampon - Réunion",
+			"dates": [2017, 2020],
+			"activities": [
+				{
+					"activity": "Réalisation d'un site Internet pour présenter mon activité.",
+					"tags": ["HTML", "CSS", "Materialize", "JS", "PHP", "Laravel", "POO"]
+				},
+				{
+					"activity": "Réalisation d'une application JAVA pour répertorier des équipements d'Airsoft.",
+					"tags": ["JAVA", "JavaFx", "HTML", "CSS", "POO"]
+				},
+				{
+					"activity": "Réalisation d'un site Internet utilisant l'API de Stripe pour un coach professionnel.",
+					"tags": ["HTML", "CSS", "Bootstrap", "JS", "Chart.js", "Stripe", "PHP", "PostgreSQL", "POO"]
+				}
+			]
+		}
+	],
+	"education": [
+		{
+			"diploma": "BAC PRO",
+			"title": "Maintenance des Équipements Industriels (MEI)",
+			"training-site": "Lycée Boisjoly Potier",
+			"location": "Le Tampon - Réunion",
+			"date": 2009,
+			"tags": ["Mécanique", "Électricité", "Hydraulique", "Pneumatique", "Maintenance"]
+
+		},
+		{
+			"diploma": "BAC+2",
+			"title": "Développeur Logiciel",
+			"training-site": "AFPAR",
+			"location": "Saint-André - Réunion",
+			"date": 2017,
+			"tags": ["Algorithme", "Merise", "POO", "JAVA", "JavaScript", "HTML", "CSS", "API REST", "WebCup"]
+		}
+	],
+	"skills": {
+		"languages": ["HTML", "CSS", "JavaScript", "PHP", "Java", "Bash"],
+		"tools": ["Laravel", "React", "Next", "Node", "WordPress"],
+		"softwares": ["Pencil", "AnalyseSI", "ViM", "Android Studio", "Docker"]
+	}
+}
