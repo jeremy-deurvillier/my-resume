@@ -1,7 +1,8 @@
 {
 	"identity": {
 		"name": "Jérémy",
-		"lastname": "Deurvillier"
+		"lastname": "Deurvillier",
+		"birthday": "16-12-1989"
 	},
 	"job": {
 		"title": "Développeur Web",
@@ -13,8 +14,13 @@
 		"https://github.com/jeremy-deurvillier",
 		"https://www.linkedin.com/in/jeremy-deurvillier"
 	],
-	"about": "",
-	"story": "",
+	"about": [
+		"Qui suis-je ?",
+		"Je suis ...",
+		"J'ai fait ci",
+		"Et ça !"
+	],
+	"story": "Ma p'tite histoire.",
 	"experiences": [
 		{
 			"job": "Agent de maintenance",
@@ -97,5 +103,9 @@
 		"languages": ["HTML", "CSS", "JavaScript", "PHP", "Java", "Bash"],
 		"tools": ["Laravel", "React", "Next", "Node", "WordPress"],
 		"softwares": ["Pencil", "AnalyseSI", "ViM", "Android Studio", "Docker"]
+	},
+	"others": {
+		"children": 3,
+		"hobbies": ["Jeux de logique", "Randonnées", "Sport de combat"]
 	}
 }

@@ -40,15 +40,28 @@
 * 	- skill
 * */
 
-import Head from '../components/head'
+import Section from '../components/section'
+import Header from '../components/header'
+import Bio from '../components/biography'
+import Contact from '../components/contact'
 
 export default function Home() {
 	return (<>
-		<Head 
-			srcimg='/../img/mon-image.png'
-			name='Jérémy Deurvillier' 
-			job='Développeur Web' 
-			tags='React | Node | Laravel' />
+		<Header />
+		<Section cssClass='about' title='A propos'>
+			<Bio />
+		</Section>
+		<Section cssClass='experiences' title='Expériences'>
+			CONTENT
+		</Section>
+		<Section cssClass='education' title='Formation'>
+			CONTENT
+		</Section>
+		<Section cssClass='skills' title='Compétences'>
+			CONTENT
+		</Section>
+		<Section cssClass='contact' title='Contact'>
+			<Contact />
+		</Section>
 	</>)
 }
-
