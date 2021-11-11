@@ -2,7 +2,7 @@
 * */
 
 import React from 'react'
-import datas from '../datas/mydata.json'
+import {about} from '../datas/input'
 
 class Biography extends React.Component {
 
@@ -11,7 +11,7 @@ class Biography extends React.Component {
 	constructor(props) {
 		super(props)
 
-		this.about = datas.about
+		this.about = about
 	}
 
 	/* ** Construit les paragraphes du composant.

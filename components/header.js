@@ -7,8 +7,7 @@
 import React from  'react'
 import Image from 'next/image'
 import Contact from './contact'
-import datas from '../datas/mydata.json'
-import pp from '../public/img/jd-profile-picture.png'
+import {identity} from '../datas/input'
 
 class Header extends React.Component {
 
@@ -17,9 +16,10 @@ class Header extends React.Component {
 	constructor(props) {
 		super(props)
 
-		this.name = datas.identity.name + ' ' + datas.identity.lastname
+		this.pp = identity.pp
+		this.name = identity.name + ' ' + identity.lastname
 		this.imgalt = 'Photo de ' + this.name
-		this.job = datas.job
+		this.job = identity.job
 	}
 
 	/* ** Rendu du composant.
@@ -30,7 +30,7 @@ class Header extends React.Component {
 		return (
 			<header>
 				<div>
-					<Image src={pp} alt={this.imgalt} width='155' height='155' placeholder="blur" />
+					<Image src={this.pp} alt={this.imgalt} width='155' height='155' placeholder="blur" />
 					<h1>{this.name}</h1>
 					<h2>{this.job.title}</h2>
 					<h3>

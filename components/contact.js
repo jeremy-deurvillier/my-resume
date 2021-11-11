@@ -3,7 +3,7 @@
 * */
 
 import React from 'react'
-import datas from '../datas/mydata.json'
+import {contact} from '../datas/input'
 
 class Contact extends React.Component {
 
@@ -13,7 +13,7 @@ class Contact extends React.Component {
 		super(props)
 
 		this.cssClass = props.cssClass?props.cssClass:'contact-list'
-		this.contactList = datas.contact
+		this.contactList = contact
 	}
 
 	/* ** Parcours la liste des éléments de contact.
