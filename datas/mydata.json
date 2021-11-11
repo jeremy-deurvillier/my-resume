@@ -8,12 +8,14 @@
 		"title": "Développeur Web",
 		"tags": ["Laravel", "React", "Node"]
 	},
-	"contact": [
-		"06 93 82 27 82",
-		"jerem.deurvil@gmail.com",
-		"https://github.com/jeremy-deurvillier",
-		"https://www.linkedin.com/in/jeremy-deurvillier"
-	],
+	"contact": {
+		"tel": ["06 93 82 27 82"],
+		"mailto": ["jerem.deurvil@gmail.com"],
+		"link": [
+			"https://github.com/jeremy-deurvillier",
+			"https://www.linkedin.com/in/jeremy-deurvillier"
+		]
+	},
 	"about": [
 		"Qui suis-je ?",
 		"Je suis ...",
