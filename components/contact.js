@@ -23,16 +23,17 @@ class Contact extends React.Component {
 	forEachContactList() {
 		let list = []
 		let item = 0, numStr = 0
-		let contact = null, elm = null, href = null
+		let contact = null, elm = null, href = null, target = null
 
 		for (contact in this.contactList) {
 			item ++
 			href = contact != 'link'?contact + ':':''
+			target = contact == 'link'?'_blank':'_self'
 			
 			this.contactList[contact].map((str) => {
 				numStr ++
 
-				elm = <a href={href+str} key={item + '-' + numStr}>{str}</a>
+				elm = <a href={href+str} key={item + '-' + numStr} target={target}>{str}</a>
 
 				list.push(elm)
 			})
