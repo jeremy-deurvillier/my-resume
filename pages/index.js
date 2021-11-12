@@ -1,6 +1,7 @@
 /* ** Point d'entrée de l'application.
 * */
 
+import Layout from '../components/layout'
 import Section from '../components/section'
 import Header from '../components/header'
 import Bio from '../components/biography'
@@ -11,6 +12,7 @@ import Contact from '../components/contact'
 
 export default function Home() {
 	return (<>
+		<Layout title='Mon CV'>
 		<Header />
 		<Section cssClass='about' title='A propos'>
 			<Bio />
@@ -27,5 +29,6 @@ export default function Home() {
 		<Section cssClass='contact' title='Contact'>
 			<Contact />
 		</Section>
+		</Layout>
 	</>)
 }
