@@ -28,17 +28,19 @@ class Header extends React.Component {
 	* */
 	render() {
 		return (
-			<header>
-				<div>
-					<Image src={this.pp} alt={this.imgalt} width='155' height='155' placeholder="blur" />
-					<h1>{this.name}</h1>
-					<h2>{this.job.title}</h2>
-					<h3>
-						{this.job.tags.map((tag) => <strong key={tag}>{tag}</strong>)}
-					</h3>
-				</div>
-				<div>
-					<Contact cssClass='contact-header' />
+			<header id='header'>
+				<div className='content'>
+					<div id='identity'>
+						<Image src={this.pp} alt={this.imgalt} width='155' height='155' placeholder="blur" />
+						<h1>{this.name}</h1>
+						<h2>{this.job.title}</h2>
+						<h3>
+							{this.job.tags.map((tag) => <strong key={tag}>{tag}</strong>)}
+						</h3>
+					</div>
+					<div id='contact-header'>
+						<Contact cssClass='contact-header' />
+					</div>
 				</div>
 			</header>
 		)

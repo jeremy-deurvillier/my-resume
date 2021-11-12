@@ -1,0 +1,46 @@
+/* ***** COMMON STYLES  ***** */
+*{
+	margin:0;
+	padding:0;
+}
+
+body{
+	font-family: 'Libre Baskerville', serif;
+	height: 100vh:
+}
+
+/* ***** HEADER ***** */
+
+#header{
+	text-align: center;
+	height: 100vh;
+	display: flex;
+	padding: 5px;
+}
+
+#header > .content{
+	width: 90%;
+	height: 70vh;
+	overflow: hidden;
+	margin: auto;
+	padding: 10px;
+}
+
+#header img{
+	border-radius: 50%;
+}
+
+h1,
+h2{
+	margin-top: 15px;
+	margin-bottom: 10px;
+}
+
+h3 > strong:not(:last-child):after{
+	content: ' | '
+}
+
+#contact-header{
+	display: none;
+}
+
