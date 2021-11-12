@@ -63,7 +63,7 @@ class Experience extends React.Component {
 		let component = null, list = []
 
 		for (; item > -1; item --) {
-			component = this.buildUI(xp[item], item)
+			component = this.buildUI(this.xp[item], item)
 
 			list.push(component)
 		}
