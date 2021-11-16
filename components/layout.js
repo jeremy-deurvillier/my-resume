@@ -38,7 +38,7 @@ class Layout extends React.Component {
 				<link rel='stylesheet' href='/css/large-style.css' />
 				<link rel='stylesheet' href='/css/xlarge-style.css' />
 			</Head>
-			<main>{this.children}</main>
+			<main id='main'>{this.children}</main>
 			<Footer>
 			</Footer>
 		</>)

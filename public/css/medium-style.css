@@ -1,0 +1,54 @@
+@media (min-width: 601px){
+	/* ***** COMMON STYLES  ***** */
+
+	#main{
+		box-shadow: 0 0 5px #222;
+		padding: 5px;
+	}
+
+	#main,
+	#footer{
+		max-width: 992px;
+		margin: 0 auto;
+	}
+
+	/* ***** XP AND EDUCATION ***** */
+
+	.job-infos > span,
+	.diploma-infos > span{
+		display: inline-block;
+	}
+
+	/* ***** CONTACT ***** */
+
+	address.contact-list{
+		text-align: left;
+	}
+
+	.single-link > .material-icons{
+		display: inline-block;
+		margin-right: 5px;
+		transform: translateY(4px);
+	}
+
+	/* ***** FOOTER ***** */
+
+	#footer{
+		margin: 30px auto 5px auto;
+	}
+
+	#footer > p{
+		display: flex;
+	}
+
+	#footer > p > span:nth-child(0n+1){
+		text-align: left;
+		width: 40%;
+	}
+
+	#footer > p > span:nth-child(0n+2){
+		text-align: right;
+		width: 60%;
+	}
+
+}

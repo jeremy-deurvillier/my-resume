@@ -7,7 +7,13 @@
 
 body{
 	font-family: 'Libre Baskerville', serif;
+	background: #282828;
 	height: 100vh;
+}
+
+#main{
+	background: white;
+	margin:0;
 	padding: 6px;
 }
 
@@ -31,14 +37,15 @@ a:visited{
 
 #header{
 	text-align: center;
-	height: 100vh;
+	height: 100vh; min-height: 320px;
 	display: flex;
+	margin-bottom: 15px;
 	padding: 5px;
 }
 
 #header > .content{
 	width: 90%;
-	height: 70vh;
+	height: 70vh; min-height: 300px;
 	overflow: hidden;
 	margin: auto;
 	padding: 10px;
