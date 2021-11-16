@@ -26,7 +26,12 @@ class Experience extends React.Component {
 		activities.map((activity) => {
 			item ++
 
-			list.push(<li key={item}>{activity.activity}</li>)
+			list.push(
+				<li key={item}>
+					<i className='material-icons'>check</i>
+					{activity.activity}
+				</li>
+			)
 		})
 
 		return list
@@ -40,14 +45,25 @@ class Experience extends React.Component {
 	* @return JSX Un élément JSX pour l'affichage.
 	* */
 	buildUI(xp, key) {
-		return (<div key={key}>
+		let dates = (xp.dates[0] === xp.dates[1])?xp.dates[0]:xp.dates[0] + ' - ' + xp.dates[1]
+
+		return (<div key={key} className='single-job'>
 			<p className='job-title'>{xp.job}</p>
 			<p className='job-infos'>
-				<span>{xp.company}</span>
-				<span>{xp.dates}</span>
-				<span>{xp.location}</span>
+				<span className='job-dates'>
+					<i className='material-icons'>date_range</i>
+					{dates}
+				</span>
+				<span className='company-name'>
+					<i className='material-icons'>work</i>
+					{xp.company}
+				</span>
+				<span className='company-location'>
+					<i className='material-icons'>location_on</i>
+					{xp.location}
+				</span>
 			</p>
-			<ul>
+			<ul className='activities-list'>
 				{this.activityUI(xp.activities)}
 			</ul>
 		</div>)
@@ -76,7 +92,7 @@ class Experience extends React.Component {
 	* @return JSX Un élément JSX pour l'affichage.
 	* */
 	render() {
-		return <div>{this.forEachXP()}</div>
+		return <>{this.forEachXP()}</>
 	}
 }
 

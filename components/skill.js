@@ -27,7 +27,7 @@ class Skill extends React.Component {
 		skills.map((skill) => {
 			item ++
 
-			elm = <strong key={categ + '-' + item} className={categ}>{skill}</strong>
+			elm = <strong key={categ + '-' + item} className={categ + ' tag'}>{skill}</strong>
 
 			list.push(elm)
 		})
@@ -59,7 +59,7 @@ class Skill extends React.Component {
 	* @return JSX Un élément JSX pour l'affichage.
 	* */
 	render() {
-		return (<div>{this.forEachEduc()}</div>)
+		return (<>{this.forEachEduc()}</>)
 	}
 }
 

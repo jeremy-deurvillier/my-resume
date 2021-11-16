@@ -22,6 +22,7 @@ class Contact extends React.Component {
 	* */
 	forEachContactList() {
 		let list = []
+		let iconsList = {'tel': 'phone', 'mailto': 'email', 'link': 'link'}
 		let item = 0, numStr = 0
 		let contact = null, elm = null, href = null, target = null
 
@@ -33,7 +34,12 @@ class Contact extends React.Component {
 			this.contactList[contact].map((str) => {
 				numStr ++
 
-				elm = <a href={href+str} key={item + '-' + numStr} target={target}>{str}</a>
+				elm = <div key={item + '-' + numStr} className='single-link'>
+					<i className='material-icons'>{iconsList[contact]}</i>
+					<a href={href+str} target={target}>
+						{str}
+					</a>
+				</div>
 
 				list.push(elm)
 			})

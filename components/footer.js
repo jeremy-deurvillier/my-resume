@@ -20,7 +20,7 @@ class Footer extends React.Component {
 	* */
 	render() {
 		return (<>
-			<footer>
+			<footer id='footer'>
 				<p>
 					<span>
 						<a href="/legal-notice">Mentions légales</a>

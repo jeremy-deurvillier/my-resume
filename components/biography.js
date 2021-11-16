@@ -37,11 +37,7 @@ class Biography extends React.Component {
 	* @return JSX Un élément JSX pour l'affichage.
 	* */
 	render() {
-		return (
-			<section id="biography">
-				{this.paragraphs()}
-			</section>
-		)
+		return (<>{this.paragraphs()}</>)
 	}
 }
 

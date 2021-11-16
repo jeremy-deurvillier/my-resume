@@ -21,12 +21,23 @@ class Education extends React.Component {
 	* @return JSX Un élément JSX pour l'affichage.
 	* */
 	buildUI(educ, key) {
-		return (<div key={key}>
-			<p className='job-title'>{educ.diploma}</p>
-			<p className='job-infos'>
-				<span>{educ['training-site']}</span>
-				<span>{educ.date}</span>
-				<span>{educ.location}</span>
+		return (<div key={key} className='single-diploma'>
+			<p className='diploma-name'>
+				{educ.diploma} {educ.title}
+			</p>
+			<p className='diploma-infos'>
+				<span>
+					<i className='material-icons'>date_range</i>
+					{educ.date}
+				</span>
+				<span>
+					<i className='material-icons'>school</i>
+					{educ['training-site']}
+				</span>
+				<span>
+					<i className='material-icons'>location_on</i>
+					{educ.location}
+				</span>
 			</p>
 		</div>)
 	}
@@ -54,7 +65,7 @@ class Education extends React.Component {
 	* @return JSX Un élément JSX pour l'affichage.
 	* */
 	render() {
-		return (<div>{this.forEachEduc()}</div>)
+		return (<>{this.forEachEduc()}</>)
 	}
 }
 

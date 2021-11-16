@@ -1,4 +1,5 @@
 /* ***** COMMON STYLES  ***** */
+
 *{
 	margin:0;
 	padding:0;
@@ -6,7 +7,24 @@
 
 body{
 	font-family: 'Libre Baskerville', serif;
-	height: 100vh:
+	height: 100vh;
+	padding: 6px;
+}
+
+section{
+	margin-bottom: 20px;
+}
+
+section > h4{
+	margin: 15px 5px 15px 0;
+}
+
+a,
+a:hover,
+a:focus,
+a:visited{
+	text-decoration: none;
+	color: black;
 }
 
 /* ***** HEADER ***** */
@@ -44,3 +62,118 @@ h3 > strong:not(:last-child):after{
 	display: none;
 }
 
+/* ***** ABOUT ***** */
+
+.about > h4{
+	display: none;
+}
+
+.about > div{
+	text-align: center;
+}
+
+.about > div > p{
+	text-align: justify;
+	margin: 10px auto;
+}
+
+/* ***** XP AND EDUCATION ***** */
+
+.single-job,
+.single-diploma,
+.contact > div{
+	margin: 30px 10px;
+}
+
+.job-title,
+.diploma-name{
+	font-weight: bold;
+	margin: 10px 0 10px 5px;
+}
+
+.job-info,
+.diploma-infos{
+	margin-left: 5px;
+}
+
+.job-infos > span,
+.diploma-infos > span{
+	display: block;
+	margin: 5px;
+}
+
+.experiences .material-icons,
+.education .material-icons{
+	margin-right: 5px;
+	transform: translateY(4px);
+}
+
+.activities-list{
+	list-style: none;
+	margin: 10px;
+}
+
+.activities-list > li{
+	text-align: justify;
+	margin-right: 5px;
+}
+
+.activities-list > li::before{
+	content: '\200B'; /* ** Compatibilité Safari. ** */
+}
+
+/* ***** SKILLS ***** */
+
+.skills > div{
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
+	align-item: stretch;
+	align-content: space-around;
+	margin: 30px 10px;
+}
+
+.tag{
+	border-radius: 4px;
+	box-shadow: 0 0 5px inset #eee;
+	margin: 6px;
+	padding: 5px;
+}
+
+.tag:hover{
+	box-shadow: 0 0 5px inset #ddd;
+}
+
+/* ***** CONTACT SECTION ***** */
+
+address.contact-list{
+	text-align: center;
+	margin: 5px;
+}
+
+.single-link{
+	margin: 5px;
+}
+
+.single-link > .material-icons{
+	display: block;
+}
+
+.single-link > a{
+	font-style: normal;
+	padding: 5px;
+}
+
+/* ***** FOOTER ***** */
+
+#footer{
+	font-size: .9em;
+	text-align: center;
+	border-top: 1px solid #eee;
+	margin-top: 30px;
+}
+
+#footer > p > span{
+	display: block;
+	margin: 5px;
+}
