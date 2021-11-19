@@ -35,8 +35,6 @@ class Layout extends React.Component {
 				<link rel='stylesheet' href='https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap' />
 				<link rel='stylesheet' href='/css/style.css' />
 				<link rel='stylesheet' href='/css/medium-style.css' />
-				<link rel='stylesheet' href='/css/large-style.css' />
-				<link rel='stylesheet' href='/css/xlarge-style.css' />
 			</Head>
 			<main id='main'>{this.children}</main>
 			<Footer>

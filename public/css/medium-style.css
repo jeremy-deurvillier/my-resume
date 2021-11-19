@@ -1,11 +1,6 @@
 @media (min-width: 601px){
 	/* ***** COMMON STYLES  ***** */
 
-	#main{
-		box-shadow: 0 0 5px #222;
-		padding: 5px;
-	}
-
 	#main,
 	#footer{
 		max-width: 992px;
@@ -34,7 +29,8 @@
 	/* ***** FOOTER ***** */
 
 	#footer{
-		margin: 30px auto 5px auto;
+		margin: 30px auto 0 auto;
+		padding-bottom: 10px;
 	}
 
 	#footer > p{

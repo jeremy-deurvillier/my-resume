@@ -7,14 +7,23 @@
 
 body{
 	font-family: 'Libre Baskerville', serif;
-	background: #282828;
+	color: #F4FBF6;
+	background: url('../img/rohit-tandon-9wg5jCEPBsw-unsplash.jpg') no-repeat center center fixed;
+	background-size: cover;
 	height: 100vh;
 }
 
+#__next{
+	background: hsla(135, 71%, 26%, 1);
+	background: linear-gradient(to top, hsla(135, 71%, 26%, .8) 0%, hsla(201, 65%, 23%, .8) 100%) no-repeat center center fixed;
+	background: -moz-linear-gradient(to top, hsla(135, 71%, 26%, .8) 0%, hsla(201, 65%, 23%, .8) 100%) no-repeat center center fixed;
+	background: -webkit-linear-gradient(to top, hsla(135, 71%, 26%, .8) 0%, hsla(201, 65%, 23%, .8) 100%) no-repeat center center fixed;
+	filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#13702A", endColorstr="#14455F", GradientType=1 );
+}
+
 #main{
-	background: white;
+	background: transparent;
 	margin:0;
-	padding: 6px;
 }
 
 section{
@@ -22,7 +31,13 @@ section{
 }
 
 section > h4{
-	margin: 15px 5px 15px 0;
+	text-transform: uppercase;
+	border-bottom: 1px solid #F4FBF6;
+	margin: 15px 5px 15px 5px;
+}
+
+.activities-list .material-icons{
+	color: #14455F;
 }
 
 a,
@@ -30,7 +45,13 @@ a:hover,
 a:focus,
 a:visited{
 	text-decoration: none;
-	color: black;
+	text-shadow: 0 0 5px inset black;
+	color: #450800;
+	border-bottom: 2px solid transparent;
+}
+
+a:hover{
+	border-bottom: 2px solid #450800;
 }
 
 /* ***** HEADER ***** */
@@ -40,17 +61,22 @@ a:visited{
 	height: 100vh; min-height: 320px;
 	display: flex;
 	margin-bottom: 15px;
-	padding: 5px;
 }
 
 #header > .content{
 	width: 90%;
 	height: 70vh; min-height: 300px;
+	display: flex;
 	overflow: hidden;
 	margin: auto;
 	padding: 10px;
 }
 
+#identity{
+	margin: auto;
+}
+
+#identity span,
 #header img{
 	border-radius: 50%;
 }
@@ -71,12 +97,9 @@ h3 > strong:not(:last-child):after{
 
 /* ***** ABOUT ***** */
 
-.about > h4{
-	display: none;
-}
-
 .about > div{
 	text-align: center;
+	padding: 5px;
 }
 
 .about > div > p{
@@ -90,6 +113,11 @@ h3 > strong:not(:last-child):after{
 .single-diploma,
 .contact > div{
 	margin: 30px 10px;
+}
+
+.single-job,
+.single-diploma{
+	border-left: 3px solid #14455F;
 }
 
 .job-title,
@@ -142,13 +170,15 @@ h3 > strong:not(:last-child):after{
 
 .tag{
 	border-radius: 4px;
-	box-shadow: 0 0 5px inset #eee;
+	box-shadow: 0 0 5px inset #F4FBF6;
+	cursor: default;
 	margin: 6px;
 	padding: 5px;
 }
 
 .tag:hover{
-	box-shadow: 0 0 5px inset #ddd;
+	background: #14455F;
+	box-shadow: 0 0 5px inset transparent;
 }
 
 /* ***** CONTACT SECTION ***** */
@@ -166,9 +196,19 @@ address.contact-list{
 	display: block;
 }
 
+.single-link:hover > .material-icons{
+	color: #450800;
+}
+
 .single-link > a{
 	font-style: normal;
+	text-decoration: none;
+	overflow-wrap: anywhere;
 	padding: 5px;
+}
+
+.single-link > a:hover{
+	border-bottom: 0 solid transparent;
 }
 
 /* ***** FOOTER ***** */
@@ -178,9 +218,10 @@ address.contact-list{
 	text-align: center;
 	border-top: 1px solid #eee;
 	margin-top: 30px;
+	padding-bottom: 10px;
 }
 
 #footer > p > span{
 	display: block;
-	margin: 5px;
+	margin: 5px 5px 0 5px;
 }
