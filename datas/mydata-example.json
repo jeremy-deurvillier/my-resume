@@ -1,0 +1,84 @@
+{
+	"identity": {
+		"name": "Prénom",
+		"lastname": "Nom",
+		"birthday": "01-01-2000"
+	},
+	"job": {
+		"title": "Métier | Poste",
+		"tags": ["Tag n°1", "Tag n°2", "Tag n°3"]
+	},
+	"contact": {
+		"tel": ["00 01 02 03 04"],
+		"mailto": ["mon-email@mail.fr"],
+		"link": [
+			"https://github.com/",
+			"https://www.linkedin.com/"
+		]
+	},
+	"about": [
+		"Qui suis-je ?",
+		"Je suis ...",
+		"J'ai fait ci",
+		"Et ça !"
+	],
+	"experiences": [
+		{
+			"job": "Développeur WordPress",
+			"company": "Agence R",
+			"location": "Paris",
+			"dates": [2018, 2019],
+			"activities": [
+				{
+					"activity": "Réalisation du site T."
+				},
+				{
+					"activity": "Utilisation du thème A et des plugins X, Y et Z."
+				}
+			]
+		},
+		{
+			"job": "Développeur Web",
+			"company": "2S2I",
+			"location": "Barcelone",
+			"dates": [2019, 2019],
+			"activities": [
+				{
+					"activity": "Réalisation d'un site Internet."
+				},
+				{
+					"activity": "Réalisation d'une API JAVA."
+				},
+				{
+					"activity": "Mise à jour du site Internet de 2S2I."
+				}
+			]
+		}
+	],
+	"education": [
+		{
+			"diploma": "BAC",
+			"title": "Intitulé du diplôme",
+			"training-site": "Lycée SV",
+			"location": "Lyon",
+			"date": 2017
+
+		},
+		{
+			"diploma": "BAC+2",
+			"title": "Développeur Web",
+			"training-site": "IUT de Lyon II",
+			"location": "Lyon",
+			"date": 2019
+		}
+	],
+	"skills": {
+		"languages": ["HTML", "JavaScript", "Python", "Java"],
+		"tools": ["Bootstrap", "JQuery", "WordPress"],
+		"softwares": ["Pencil", "AnalyseSI", "VS Code", "Android Studio", "Docker"]
+	},
+	"others": {
+		"children": 3,
+		"hobbies": ["Jeux de logique", "Randonnées", "Sport de combat"]
+	}
+}

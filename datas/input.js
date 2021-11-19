@@ -1,6 +1,6 @@
 /* ** Importez vos donnnées ici.
 * */
-import mydata from './mydata.json'
+import mydata from './mydata-example.json'
 import photo from '../public/img/jd-profile-picture.png'
 
 /* ** Les objets suivants contiennent les données à afficher.
