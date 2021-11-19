@@ -31,7 +31,7 @@ class Header extends React.Component {
 			<header id='header'>
 				<div className='content'>
 					<div id='identity'>
-						<Image src={this.pp} alt={this.imgalt} width='155' height='155' placeholder="blur" />
+						<Image src={this.pp} alt={this.imgalt} width='155' height='155' placeholder="empty" />
 						<h1>{this.name}</h1>
 						<h2>{this.job.title}</h2>
 						<h3>
