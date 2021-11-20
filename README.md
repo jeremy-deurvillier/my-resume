@@ -3,7 +3,7 @@
 ## A propos
 
 Ce dépôt permet de construire rapidement son Curriculum Vitae avec Next.js.
-Il à uniquement besoin d'un ficher contenant les données que vous souhaitez affichées.
+Il à uniquement besoin d'un fichier contenant les données que vous souhaitez affichées.
 
 ## Récupérer les sources
 
@@ -24,5 +24,15 @@ Vous pouvez ensuite lancer le serveur :
 
 ## Modifier les données affichées
 
+### Données textuelles
+
 Par défaut, les données affichées sont issues du fichier datas/mydata-example.json.
-Modifiez donc les informations du fichier pour voir vos propres données.
+Modifiez les informations du fichier pour voir vos propres données.
+
+Vous pouvez aussi importer vos données individuellement dans le fichier datas/input.js.
+
+### Image de profil
+
+Pour utiliser votre photo de profil, importer la dans le fichier input.js (à la ligne 4 du fichier).
+
+`import photo from 'chemin/de/votre/photo.jpg'`
