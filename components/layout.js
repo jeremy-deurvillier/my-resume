@@ -4,6 +4,7 @@
 import React from 'react'
 import Head from 'next/head'
 import Footer from './footer'
+import {identity} from '../datas/input'
 
 class Layout extends React.Component {
 
@@ -27,7 +28,7 @@ class Layout extends React.Component {
 				<meta httpEquiv='X-UA-Compatible' content='IE=edge' />
 				<meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' />
 				
-				<title>Jérémy Deurvillier - {this.title}</title>
+				<title>{identity.name + ' ' + identity.lastname} - {this.title}</title>
 				
 				<link rel='preconnect' href='https://fonts.googleapis.com' />
 				<link rel='preconnect' href='https://fonts.gstatic.com' crossOrigin='true' />

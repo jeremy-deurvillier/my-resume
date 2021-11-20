@@ -4,6 +4,7 @@
 * */
 
 import React from 'react'
+import {identity} from '../datas/input'
 
 class Footer extends React.Component {
 	/* ** 
@@ -26,7 +27,7 @@ class Footer extends React.Component {
 						<a href="/legal-notice">Mentions légales</a>
 					</span>
 					<span>
-						Copyright 2021 - Jérémy Deurvillier
+						Copyright 2021 - {identity.name + ' ' + identity.lastname}
 					</span>
 				</p>
 			</footer>
