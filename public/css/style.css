@@ -72,7 +72,8 @@ a:hover{
 	padding: 10px;
 }
 
-#identity{
+#identity,
+#legal-notice-header{
 	margin: auto;
 }
 
@@ -209,6 +210,24 @@ address.contact-list{
 
 .single-link > a:hover{
 	border-bottom: 0 solid transparent;
+}
+
+/* ***** LEGAL NOTICE ***** */
+
+.publication > div > p,
+.host > div > p,
+.credits > div > p{
+	text-align: justify;
+	padding: 5px;
+}
+
+.entitle{
+	display: block;
+}
+
+.entitle > span,
+.entitle > strong{
+	margin-left: 5px;
 }
 
 /* ***** FOOTER ***** */
