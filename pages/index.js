@@ -13,22 +13,22 @@ import Contact from '../components/contact'
 export default function Home() {
 	return (<>
 		<Layout title='Mon CV'>
-		<Header />
-		<Section cssClass='about' title='A propos'>
-			<Bio />
-		</Section>
-		<Section cssClass='experiences' title='Expériences'>
-			<XP />
-		</Section>
-		<Section cssClass='education' title='Formation'>
-			<Education />
-		</Section>
-		<Section cssClass='skills' title='Compétences'>
-			<Skill />
-		</Section>
-		<Section cssClass='contact' title='Contact'>
-			<Contact />
-		</Section>
+			<Header />
+			<Section cssClass='about' title='A propos'>
+				<Bio />
+			</Section>
+			<Section cssClass='experiences' title='Expériences'>
+				<XP />
+			</Section>
+			<Section cssClass='education' title='Formation'>
+				<Education />
+			</Section>
+			<Section cssClass='skills' title='Compétences'>
+				<Skill />
+			</Section>
+			<Section cssClass='contact' title='Contact'>
+				<Contact />
+			</Section>
 		</Layout>
 	</>)
 }

@@ -5,6 +5,8 @@
 Ce dépôt permet de construire rapidement son Curriculum Vitae avec Next.js.
 Il à uniquement besoin d'un fichier contenant les données que vous souhaitez affichées.
 
+Besoin d'un aperçu ? Suivez [ce lien](https://my-resume-with-next-js.netlify.app/).
+
 ## Récupérer les sources
 
 Pour cloner le dépôt téléchargez le [fichier .zip](https://github.com/jeremy-deurvillier/my-resume-with-next-js/archive/refs/heads/master.zip) 

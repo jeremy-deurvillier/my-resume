@@ -40,7 +40,7 @@ class Skill extends React.Component {
 	* 
 	* @return Array Un tableau d'élément JSX pour l'affichage.
 	* */
-	forEachEduc() {
+	forEachSkills() {
 		let list = []
 		let categ = null, skill = null
 		let elm = null
@@ -59,7 +59,7 @@ class Skill extends React.Component {
 	* @return JSX Un élément JSX pour l'affichage.
 	* */
 	render() {
-		return (<>{this.forEachEduc()}</>)
+		return (<>{this.forEachSkills()}</>)
 	}
 }
 

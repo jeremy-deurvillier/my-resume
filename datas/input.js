@@ -1,7 +1,7 @@
 /* ** Importez vos donnnées ici.
 * */
 import mydata from './mydata-example.json'
-import photo from '../public/img/profile-picture.svg'
+import photo from '../public/img/Elon-Musk.png'
 
 /* ** Les objets suivants contiennent les données à afficher.
 * Modifiez-les en fonction de vos propres donées.

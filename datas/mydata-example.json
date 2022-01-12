@@ -1,56 +1,87 @@
 {
 	"identity": {
-		"name": "Prénom",
-		"lastname": "Nom",
-		"birthday": "01-01-2000"
+		"name": "Elon",
+		"lastname": "Musk",
+		"birthday": "28-06-1971"
 	},
 	"job": {
-		"title": "Métier | Poste",
-		"tags": ["Tag n°1", "Tag n°2", "Tag n°3"]
+		"title": "Directeur technique",
+		"tags": ["SpaceX", "Falcon", "Dragon"]
 	},
 	"contact": {
 		"tel": ["00 01 02 03 04"],
-		"mailto": ["mon-email@mail.fr"],
+		"mailto": ["elon@musk.com"],
 		"link": [
 			"https://github.com/",
 			"https://www.linkedin.com/"
 		]
 	},
 	"about": [
-		"Qui suis-je ?",
-		"Je suis ...",
-		"J'ai fait ci",
-		"Et ça !"
+		"Dum haec in oriente aguntur,",
+		"Arelate hiemem agens Constantius post theatralis ludos atque circenses ambitioso editos apparatu diem sextum idus Octobres.",
+		"Qui imperii eius annum tricensimum terminabat, insolentiae pondera gravius librans, siquid dubium deferebatur aut falsum.",
+		"Pro liquido accipiens et conperto, inter alia excarnificatum Gerontium Magnentianae comitem partis exulari maerore multavit."
 	],
 	"experiences": [
 		{
-			"job": "Développeur WordPress",
-			"company": "Agence R",
-			"location": "Paris",
-			"dates": [2018, 2019],
+			"job": "Co-fondateur",
+			"company": "Zip2",
+			"location": "Austin, Texas",
+			"dates": [1995, 1999],
 			"activities": [
 				{
-					"activity": "Réalisation du site T."
-				},
-				{
-					"activity": "Utilisation du thème A et des plugins X, Y et Z."
+					"activity": "Création d'un logiciel de publication de contenu pour les entreprises."
 				}
 			]
 		},
 		{
-			"job": "Développeur Web",
-			"company": "2S2I",
-			"location": "Barcelone",
-			"dates": [2019, 2019],
+			"job": "Fondateur",
+			"company": "X.com / Paypal",
+			"location": "Houston, Texas",
+			"dates": [1999, 2002],
 			"activities": [
 				{
-					"activity": "Réalisation d'un site Internet."
+					"activity": "Mise en place de divers services bancaires."
 				},
 				{
-					"activity": "Réalisation d'une API JAVA."
+					"activity": "Mise en place d'un système de paiement en ligne."
 				},
 				{
-					"activity": "Mise à jour du site Internet de 2S2I."
+					"activity": "Rachat de x.com."
+				}
+			]
+		},
+		{
+			"job": "Directeur technique",
+			"company": "SpaceX",
+			"location": "Tucson, Arizona",
+			"dates": [2002, 2022],
+			"activities": [
+				{
+					"activity": "Première récupération du premier étage du lanceur Falcon 9."
+				},
+				{
+					"activity": "Lancement de la première Falcon 9 recyclée."
+				},
+				{
+					"activity": "Utilisation du lanceur Falcon 9 pour envoyer 4 astronautes vers l'ISS."
+				}
+			]
+		},
+		{
+			"job": "Président",
+			"company": "Tesla",
+			"location": "Phoenix, Arizona",
+			"dates": [2008, 2022],
+			"activities": [
+				{
+					"activity": "Lancement du Tesla Roadster."
+				},
+				{
+					"activity": "Lancement du Tesla Model S."
+				},
+				{
+					"activity": "Lancement du Tesla Model X."
 				}
 			]
 		}
@@ -58,27 +89,30 @@
 	"education": [
 		{
 			"diploma": "BAC",
-			"title": "Intitulé du diplôme",
-			"training-site": "Lycée SV",
-			"location": "Lyon",
-			"date": 2017
+			"title": "Études secondaires",
+			"training-site": "Pretoria Boys High School",
+			"location": "Pretoria",
+			"date": 1988
 
 		},
 		{
-			"diploma": "BAC+2",
-			"title": "Développeur Web",
-			"training-site": "IUT de Lyon II",
-			"location": "Lyon",
-			"date": 2019
+			"diploma": "BAC+4",
+			"title": "Diplôme en Administration",
+			"training-site": "Université Queen's",
+			"location": "Canada",
+			"date": 1992
+		},
+		{
+			"diploma": "BAC+7",
+			"title": "Diplôme en Physique",
+			"training-site": "Université de Pennsylvanie",
+			"location": "États-Unis",
+			"date": 1995
 		}
 	],
 	"skills": {
 		"languages": ["HTML", "JavaScript", "Python", "Java"],
 		"tools": ["Bootstrap", "JQuery", "WordPress"],
 		"softwares": ["Pencil", "AnalyseSI", "VS Code", "Android Studio", "Docker"]
-	},
-	"others": {
-		"children": 3,
-		"hobbies": ["Jeux de logique", "Randonnées", "Sport de combat"]
 	}
 }
