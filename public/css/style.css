@@ -226,7 +226,8 @@ address.contact-list{
 }
 
 .entitle > span,
-.entitle > strong{
+.entitle > strong,
+.entitle > a{
 	margin-left: 5px;
 }
 
