@@ -21,7 +21,7 @@ class Footer extends React.Component {
 	* @return JSX Un élément JSX pour l'affichage.
 	* */
 	render() {
-		const poweredby = 'Powered by <a href="https://jeremy-deurvillier.com" target="_blank">Jérémy Deurvillier</a>'
+		const poweredby = <>Powered by <a href="https://jeremy-deurvillier.com" target="_blank">Jérémy Deurvillier</a></>
 
 		return (<>
 			<footer id='footer'>
