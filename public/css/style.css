@@ -236,6 +236,8 @@ address.contact-list{
 #footer{
 	font-size: .9em;
 	text-align: center;
+	color: #000;
+	background: #F4FBF6;
 	border-top: 1px solid #eee;
 	margin-top: 30px;
 	padding-bottom: 10px;
@@ -244,4 +246,11 @@ address.contact-list{
 #footer > p > span{
 	display: block;
 	margin: 5px 5px 0 5px;
+}
+
+.footer-link{
+	text-transform: uppercase;
+	color: #000;
+	margin-left: 5px;
+	margin-right: 10px;
 }

@@ -5,6 +5,7 @@
 
 import React from 'react'
 import {identity} from '../datas/input'
+import os from 'os'
 
 class Footer extends React.Component {
 	/* ** 
@@ -20,14 +21,18 @@ class Footer extends React.Component {
 	* @return JSX Un élément JSX pour l'affichage.
 	* */
 	render() {
+		const poweredby = 'Powered by <a href="https://jeremy-deurvillier.com" target="_blank">Jérémy Deurvillier</a>'
+
 		return (<>
 			<footer id='footer'>
 				<p>
 					<span>
-						<a href="/legal-notice">Mentions légales</a>
+						<a href="/" className="footer-link">Accueil</a>&nbsp;
+						<a href="/legal-notice" className="footer-link">Mentions légales</a>
 					</span>
 					<span>
-						Copyright 2021 - {identity.name + ' ' + identity.lastname}
+						Copyright 2021 -&nbsp;
+						{(os.hostname() === 'my-resume-with-next-js.netlify.app')?poweredby:identity.name + ' ' + identity.lastname}
 					</span>
 				</p>
 			</footer>
